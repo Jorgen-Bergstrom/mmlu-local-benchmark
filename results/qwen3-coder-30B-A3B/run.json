@@ -1,0 +1,451 @@
+{
+  "model": "qwen3-coder-30B-A3B",
+  "gguf": "/home/jorgen/.cache/llama.cpp/Qwen3-Coder-30B-A3B-Instruct-UD-Q3_K_XL.gguf",
+  "notes": "alias qwen3_Coder_30B_A3B | BENCH OVERRIDE: ctx 32768 (8192/slot) + full GPU offload (was -c 16384 / -ngl 36)",
+  "server_command": [
+    "/home/jorgen/llama.cpp/build/bin/llama-server",
+    "-m",
+    "/home/jorgen/.cache/llama.cpp/Qwen3-Coder-30B-A3B-Instruct-UD-Q3_K_XL.gguf",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "8080",
+    "-np",
+    "4",
+    "-ngl",
+    "99",
+    "-ctk",
+    "q8_0",
+    "-ctv",
+    "q8_0",
+    "--n-cpu-moe",
+    "16",
+    "-fa",
+    "on",
+    "--jinja",
+    "-c",
+    "32768"
+  ],
+  "config": {
+    "shots": 5,
+    "concurrency": 4,
+    "limit_per_subject": null,
+    "temperature": 0,
+    "grammar": "root ::= \"A\" | \"B\" | \"C\" | \"D\"",
+    "endpoint": "/completion",
+    "host": "127.0.0.1",
+    "port": 8080
+  },
+  "started_at": "2026-10-05T15:08:36.905489+00:00",
+  "finished_at": "2026-10-05T15:48:49.974069+00:00",
+  "elapsed_seconds": 2408.6,
+  "questions_per_second": 5.83,
+  "gpu": "NVIDIA GeForce RTX 5060 Ti, 16311 MiB, 580.173.02",
+  "total_questions": 14042,
+  "total_answered": 14042,
+  "total_failed": 0,
+  "total_correct": 10771,
+  "overall_accuracy": 0.7670559749323458,
+  "macro_accuracy": 0.7874975014215658,
+  "per_subject": {
+    "abstract_algebra": {
+      "total": 100,
+      "answered": 100,
+      "failed": 0,
+      "correct": 73,
+      "accuracy": 0.73
+    },
+    "anatomy": {
+      "total": 135,
+      "answered": 135,
+      "failed": 0,
+      "correct": 102,
+      "accuracy": 0.7555555555555555
+    },
+    "astronomy": {
+      "total": 152,
+      "answered": 152,
+      "failed": 0,
+      "correct": 134,
+      "accuracy": 0.881578947368421
+    },
+    "business_ethics": {
+      "total": 100,
+      "answered": 100,
+      "failed": 0,
+      "correct": 76,
+      "accuracy": 0.76
+    },
+    "clinical_knowledge": {
+      "total": 265,
+      "answered": 265,
+      "failed": 0,
+      "correct": 213,
+      "accuracy": 0.8037735849056604
+    },
+    "college_biology": {
+      "total": 144,
+      "answered": 144,
+      "failed": 0,
+      "correct": 128,
+      "accuracy": 0.8888888888888888
+    },
+    "college_chemistry": {
+      "total": 100,
+      "answered": 100,
+      "failed": 0,
+      "correct": 57,
+      "accuracy": 0.57
+    },
+    "college_computer_science": {
+      "total": 100,
+      "answered": 100,
+      "failed": 0,
+      "correct": 71,
+      "accuracy": 0.71
+    },
+    "college_mathematics": {
+      "total": 100,
+      "answered": 100,
+      "failed": 0,
+      "correct": 66,
+      "accuracy": 0.66
+    },
+    "college_medicine": {
+      "total": 173,
+      "answered": 173,
+      "failed": 0,
+      "correct": 131,
+      "accuracy": 0.7572254335260116
+    },
+    "college_physics": {
+      "total": 102,
+      "answered": 102,
+      "failed": 0,
+      "correct": 78,
+      "accuracy": 0.7647058823529411
+    },
+    "computer_security": {
+      "total": 100,
+      "answered": 100,
+      "failed": 0,
+      "correct": 83,
+      "accuracy": 0.83
+    },
+    "conceptual_physics": {
+      "total": 235,
+      "answered": 235,
+      "failed": 0,
+      "correct": 211,
+      "accuracy": 0.8978723404255319
+    },
+    "econometrics": {
+      "total": 114,
+      "answered": 114,
+      "failed": 0,
+      "correct": 80,
+      "accuracy": 0.7017543859649122
+    },
+    "electrical_engineering": {
+      "total": 145,
+      "answered": 145,
+      "failed": 0,
+      "correct": 113,
+      "accuracy": 0.7793103448275862
+    },
+    "elementary_mathematics": {
+      "total": 378,
+      "answered": 378,
+      "failed": 0,
+      "correct": 322,
+      "accuracy": 0.8518518518518519
+    },
+    "formal_logic": {
+      "total": 126,
+      "answered": 126,
+      "failed": 0,
+      "correct": 75,
+      "accuracy": 0.5952380952380952
+    },
+    "global_facts": {
+      "total": 100,
+      "answered": 100,
+      "failed": 0,
+      "correct": 56,
+      "accuracy": 0.56
+    },
+    "high_school_biology": {
+      "total": 310,
+      "answered": 310,
+      "failed": 0,
+      "correct": 283,
+      "accuracy": 0.9129032258064517
+    },
+    "high_school_chemistry": {
+      "total": 203,
+      "answered": 203,
+      "failed": 0,
+      "correct": 156,
+      "accuracy": 0.7684729064039408
+    },
+    "high_school_computer_science": {
+      "total": 100,
+      "answered": 100,
+      "failed": 0,
+      "correct": 87,
+      "accuracy": 0.87
+    },
+    "high_school_european_history": {
+      "total": 165,
+      "answered": 165,
+      "failed": 0,
+      "correct": 139,
+      "accuracy": 0.8424242424242424
+    },
+    "high_school_geography": {
+      "total": 198,
+      "answered": 198,
+      "failed": 0,
+      "correct": 175,
+      "accuracy": 0.8838383838383839
+    },
+    "high_school_government_and_politics": {
+      "total": 193,
+      "answered": 193,
+      "failed": 0,
+      "correct": 183,
+      "accuracy": 0.9481865284974094
+    },
+    "high_school_macroeconomics": {
+      "total": 390,
+      "answered": 390,
+      "failed": 0,
+      "correct": 324,
+      "accuracy": 0.8307692307692308
+    },
+    "high_school_mathematics": {
+      "total": 270,
+      "answered": 270,
+      "failed": 0,
+      "correct": 175,
+      "accuracy": 0.6481481481481481
+    },
+    "high_school_microeconomics": {
+      "total": 238,
+      "answered": 238,
+      "failed": 0,
+      "correct": 219,
+      "accuracy": 0.9201680672268907
+    },
+    "high_school_physics": {
+      "total": 151,
+      "answered": 151,
+      "failed": 0,
+      "correct": 118,
+      "accuracy": 0.7814569536423841
+    },
+    "high_school_psychology": {
+      "total": 545,
+      "answered": 545,
+      "failed": 0,
+      "correct": 506,
+      "accuracy": 0.9284403669724771
+    },
+    "high_school_statistics": {
+      "total": 216,
+      "answered": 216,
+      "failed": 0,
+      "correct": 168,
+      "accuracy": 0.7777777777777778
+    },
+    "high_school_us_history": {
+      "total": 204,
+      "answered": 204,
+      "failed": 0,
+      "correct": 180,
+      "accuracy": 0.8823529411764706
+    },
+    "high_school_world_history": {
+      "total": 237,
+      "answered": 237,
+      "failed": 0,
+      "correct": 207,
+      "accuracy": 0.8734177215189873
+    },
+    "human_aging": {
+      "total": 223,
+      "answered": 223,
+      "failed": 0,
+      "correct": 172,
+      "accuracy": 0.7713004484304933
+    },
+    "human_sexuality": {
+      "total": 131,
+      "answered": 131,
+      "failed": 0,
+      "correct": 112,
+      "accuracy": 0.8549618320610687
+    },
+    "international_law": {
+      "total": 121,
+      "answered": 121,
+      "failed": 0,
+      "correct": 99,
+      "accuracy": 0.8181818181818182
+    },
+    "jurisprudence": {
+      "total": 108,
+      "answered": 108,
+      "failed": 0,
+      "correct": 91,
+      "accuracy": 0.8425925925925926
+    },
+    "logical_fallacies": {
+      "total": 163,
+      "answered": 163,
+      "failed": 0,
+      "correct": 135,
+      "accuracy": 0.8282208588957055
+    },
+    "machine_learning": {
+      "total": 112,
+      "answered": 112,
+      "failed": 0,
+      "correct": 78,
+      "accuracy": 0.6964285714285714
+    },
+    "management": {
+      "total": 103,
+      "answered": 103,
+      "failed": 0,
+      "correct": 89,
+      "accuracy": 0.8640776699029126
+    },
+    "marketing": {
+      "total": 234,
+      "answered": 234,
+      "failed": 0,
+      "correct": 209,
+      "accuracy": 0.8931623931623932
+    },
+    "medical_genetics": {
+      "total": 100,
+      "answered": 100,
+      "failed": 0,
+      "correct": 91,
+      "accuracy": 0.91
+    },
+    "miscellaneous": {
+      "total": 783,
+      "answered": 783,
+      "failed": 0,
+      "correct": 674,
+      "accuracy": 0.8607918263090677
+    },
+    "moral_disputes": {
+      "total": 346,
+      "answered": 346,
+      "failed": 0,
+      "correct": 252,
+      "accuracy": 0.7283236994219653
+    },
+    "moral_scenarios": {
+      "total": 895,
+      "answered": 895,
+      "failed": 0,
+      "correct": 542,
+      "accuracy": 0.605586592178771
+    },
+    "nutrition": {
+      "total": 306,
+      "answered": 306,
+      "failed": 0,
+      "correct": 247,
+      "accuracy": 0.8071895424836601
+    },
+    "philosophy": {
+      "total": 311,
+      "answered": 311,
+      "failed": 0,
+      "correct": 237,
+      "accuracy": 0.7620578778135049
+    },
+    "prehistory": {
+      "total": 324,
+      "answered": 324,
+      "failed": 0,
+      "correct": 261,
+      "accuracy": 0.8055555555555556
+    },
+    "professional_accounting": {
+      "total": 282,
+      "answered": 282,
+      "failed": 0,
+      "correct": 185,
+      "accuracy": 0.6560283687943262
+    },
+    "professional_law": {
+      "total": 1534,
+      "answered": 1534,
+      "failed": 0,
+      "correct": 823,
+      "accuracy": 0.5365058670143416
+    },
+    "professional_medicine": {
+      "total": 272,
+      "answered": 272,
+      "failed": 0,
+      "correct": 225,
+      "accuracy": 0.8272058823529411
+    },
+    "professional_psychology": {
+      "total": 612,
+      "answered": 612,
+      "failed": 0,
+      "correct": 502,
+      "accuracy": 0.8202614379084967
+    },
+    "public_relations": {
+      "total": 110,
+      "answered": 110,
+      "failed": 0,
+      "correct": 86,
+      "accuracy": 0.7818181818181819
+    },
+    "security_studies": {
+      "total": 245,
+      "answered": 245,
+      "failed": 0,
+      "correct": 184,
+      "accuracy": 0.7510204081632653
+    },
+    "sociology": {
+      "total": 201,
+      "answered": 201,
+      "failed": 0,
+      "correct": 168,
+      "accuracy": 0.835820895522388
+    },
+    "us_foreign_policy": {
+      "total": 100,
+      "answered": 100,
+      "failed": 0,
+      "correct": 91,
+      "accuracy": 0.91
+    },
+    "virology": {
+      "total": 166,
+      "answered": 166,
+      "failed": 0,
+      "correct": 85,
+      "accuracy": 0.5120481927710844
+    },
+    "world_religions": {
+      "total": 171,
+      "answered": 171,
+      "failed": 0,
+      "correct": 144,
+      "accuracy": 0.8421052631578947
+    }
+  }
+}

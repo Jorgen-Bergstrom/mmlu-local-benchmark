@@ -1,0 +1,16 @@
+# MMLU dataset — publicly downloadable, not committed (see README / mmlu/README.md)
+mmlu/data/
+mmlu/data.tar
+
+# Large per-run artifacts (kept out of git; predictions offered as Release assets)
+results/**/server.log
+results/**/predictions.jsonl
+results/*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Local / personal
+*.ods
+.DS_Store
