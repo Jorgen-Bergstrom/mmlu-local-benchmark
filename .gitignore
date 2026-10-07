@@ -14,3 +14,7 @@ __pycache__/
 # Local / personal
 *.ods
 .DS_Store
+
+# Local-only — present in this folder but never published
+blog_mmlu_local_llms.md
+info.md
