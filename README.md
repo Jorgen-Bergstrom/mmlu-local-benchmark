@@ -108,3 +108,8 @@ table are attached, gzipped, to this repository's **Releases**.
 Model launch configurations live in `benchmark_mmlu.py` under `MODEL_REGISTRY`
 (GGUF file name + `llama-server` args per model); edit them there for your own
 models or use `--model-file` with `--server-args`.
+
+## License
+
+MIT — see [`LICENSE`](LICENSE).
+
