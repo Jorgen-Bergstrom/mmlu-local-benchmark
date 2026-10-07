@@ -8,7 +8,7 @@ MMLU test question with a standard 5-shot prompt, records the predictions and
 per-subject accuracy, stops the server, and moves on to the next model.
 
 > The companion blog write-up lives on
-> [bergstrom.org](https://bergstrom.org/) (link to be added).
+> [bergstrom.org](https://bergstrom.org/posts/mmlu_local_llms/).
 
 ## Results
 
